@@ -21,7 +21,11 @@
             wp_body_open();
         }
     ?>
+    <div id="page" class="site">
+        <Header id="masthead" class="site-header" role="banner">
+            <?php get_template_part( 'template-parts/header/nav' ); ?>
+        </Header>
+        <div id="content" class="site-content">
 
-    <header> 
-        Header
-    </header>
+        </div>
+    </div>
