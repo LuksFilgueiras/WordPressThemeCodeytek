@@ -4,16 +4,13 @@
      * @package Aquila
      * 
      */
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Theme</title>
-</head>
-<body>
-    Testando
-</body>
-</html>
 
+     get_header();
+?>
+
+    <div class="content">
+        Content
+    </div>
+
+<?php 
+    get_footer();
