@@ -9,7 +9,7 @@
 ?>
 
     <div class="content">
-        Content
+        Content Index
     </div>
 
 <?php 
